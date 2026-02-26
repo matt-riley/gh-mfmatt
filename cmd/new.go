@@ -14,6 +14,7 @@ import (
 var templateRepos = map[string]string{
 	"node-api":      "matt-riley/elysia-crud-template",
 	"neovim-plugin": "matt-riley/nvim-plugin-template",
+	"astro-site":    "matt-riley/astro-site-template",
 }
 
 var newCmd = &cobra.Command{
