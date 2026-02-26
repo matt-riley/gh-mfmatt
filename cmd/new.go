@@ -16,6 +16,7 @@ var templateRepos = map[string]string{
 	"neovim-plugin": "matt-riley/nvim-plugin-template",
 	"astro-site":    "matt-riley/astro-site-template",
 	"go-api":        "matt-riley/go-api-template",
+	"ts-package":    "matt-riley/ts-package-template",
 }
 
 var newCmd = &cobra.Command{
@@ -39,6 +40,7 @@ func runNew(_ *cobra.Command, args []string) error {
 					huh.NewOption("Bun API (elysia-crud-template)", "bun-api"),
 					huh.NewOption("Neovim plugin (nvim-plugin-template)", "neovim-plugin"),
 					huh.NewOption("Astro site (astro-site-template)", "astro-site"),
+					huh.NewOption("TS package (ts-package-template)", "ts-package"),
 					huh.NewOption("Bare (no template)", "bare"),
 				).
 				Value(&repoType),
