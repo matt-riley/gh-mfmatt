@@ -15,7 +15,7 @@ gh mfmatt new <repo-name>
 ```
 
 Interactively prompts for:
-- **Repo type** — `go-service`, `node-api` (elysia-crud-template), `astro-site`, or `bare`
+- **Repo type** — `go-service`, `node-api` (elysia-crud-template), `neovim-plugin` (nvim-plugin-template), `astro-site`, or `bare`
 - **Visibility** — `private` or `public`
 
 Then creates the repo under `matt-riley/<repo-name>` and clones it locally.
@@ -26,9 +26,10 @@ Edit `cmd/new.go` and add an entry to `templateRepos`:
 
 ```go
 var templateRepos = map[string]string{
-    "node-api":   "matt-riley/elysia-crud-template",
-    "go-service": "matt-riley/go-service-template",  // add when ready
-    "astro-site": "matt-riley/astro-site-template",  // add when ready
+    "node-api":      "matt-riley/elysia-crud-template",
+    "neovim-plugin": "matt-riley/nvim-plugin-template",
+    "go-service":    "matt-riley/go-service-template",  // add when ready
+    "astro-site":    "matt-riley/astro-site-template",  // add when ready
 }
 ```
 
