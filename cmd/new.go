@@ -12,7 +12,8 @@ import (
 // templateRepos maps repo types to GitHub template repo slugs.
 // Add entries here as new template repos are created.
 var templateRepos = map[string]string{
-	"node-api": "matt-riley/elysia-crud-template",
+	"node-api":      "matt-riley/elysia-crud-template",
+	"neovim-plugin": "matt-riley/nvim-plugin-template",
 }
 
 var newCmd = &cobra.Command{
@@ -34,6 +35,7 @@ func runNew(_ *cobra.Command, args []string) error {
 				Options(
 					huh.NewOption("Go service", "go-service"),
 					huh.NewOption("Node API (elysia-crud-template)", "node-api"),
+					huh.NewOption("Neovim plugin (nvim-plugin-template)", "neovim-plugin"),
 					huh.NewOption("Astro site", "astro-site"),
 					huh.NewOption("Bare (no template)", "bare"),
 				).
