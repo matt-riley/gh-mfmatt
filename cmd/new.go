@@ -15,6 +15,7 @@ var templateRepos = map[string]string{
 	"node-api":      "matt-riley/elysia-crud-template",
 	"neovim-plugin": "matt-riley/nvim-plugin-template",
 	"astro-site":    "matt-riley/astro-site-template",
+	"go-api":        "matt-riley/go-api-template",
 }
 
 var newCmd = &cobra.Command{
@@ -34,7 +35,8 @@ func runNew(_ *cobra.Command, args []string) error {
 			huh.NewSelect[string]().
 				Title("Repo type").
 				Options(
-					huh.NewOption("Go service", "go-service"),
+					huh.NewOption("Go API (go-api-template)", "go-api"),
+				huh.NewOption("Go service (bare)", "go-service"),
 					huh.NewOption("Node API (elysia-crud-template)", "node-api"),
 					huh.NewOption("Neovim plugin (nvim-plugin-template)", "neovim-plugin"),
 					huh.NewOption("Astro site", "astro-site"),
