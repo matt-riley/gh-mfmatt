@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/matt-riley/gh-mfmatt/compare/v1.0.0...v1.1.0) (2026-02-27)
+
+
+### Features
+
+* add ts-package template mapping ([6ec98f0](https://github.com/matt-riley/gh-mfmatt/commit/6ec98f0b53e4e3e14b0877d370e75e352de0dd37))
+
 ## 1.0.0 (2026-02-26)
 
 
