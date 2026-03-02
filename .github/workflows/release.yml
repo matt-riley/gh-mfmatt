@@ -6,11 +6,11 @@ on:
 
 jobs:
   release-please:
-    uses: matt-riley/matt-riley-ci/.github/workflows/release-please.yml@v1
+    uses: matt-riley/matt-riley-ci/.github/workflows/release-please.yml@7bf33bf0eef269c4a4b1d85e1668dec14fb8ffff # v1
     secrets: inherit
 
   goreleaser:
     needs: release-please
     if: needs.release-please.outputs.release_created == 'true'
-    uses: matt-riley/matt-riley-ci/.github/workflows/go-goreleaser.yml@v1
+    uses: matt-riley/matt-riley-ci/.github/workflows/go-goreleaser.yml@7bf33bf0eef269c4a4b1d85e1668dec14fb8ffff # v1
     secrets: inherit
