@@ -8,7 +8,7 @@ on:
 
 jobs:
   go-ci:
-    uses: matt-riley/matt-riley-ci/.github/workflows/go-ci.yml@v1
+    uses: matt-riley/matt-riley-ci/.github/workflows/go-ci.yml@7bf33bf0eef269c4a4b1d85e1668dec14fb8ffff # v1
 
   go-lint:
-    uses: matt-riley/matt-riley-ci/.github/workflows/go-lint.yml@v1
+    uses: matt-riley/matt-riley-ci/.github/workflows/go-lint.yml@7bf33bf0eef269c4a4b1d85e1668dec14fb8ffff # v1
