@@ -21,7 +21,8 @@ builds:
 
 archives:
   - format: binary
-    name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
+    # GitHub CLI extension releases must end with "-<os>-<arch>[.exe]".
+    name_template: "{{ .ProjectName }}-{{ .Os }}-{{ .Arch }}"
 
 checksum:
   name_template: checksums.txt
