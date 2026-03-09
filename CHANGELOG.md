@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/matt-riley/gh-mfmatt/compare/v1.1.0...v1.1.1) (2026-03-09)
+
+
+### Bug Fixes
+
+* **release:** publish gh-compatible asset names ([c8c20a8](https://github.com/matt-riley/gh-mfmatt/commit/c8c20a8f59b78d6292e62ea3be727fdf8d2c5bdd))
+
 ## [1.1.0](https://github.com/matt-riley/gh-mfmatt/compare/v1.0.0...v1.1.0) (2026-03-08)
 
 
