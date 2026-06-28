@@ -7,8 +7,9 @@ on:
     branches: [main]
 
 jobs:
-  go-ci:
-    uses: matt-riley/matt-riley-ci/.github/workflows/go-ci.yml@bcaf4ae43edf7d26421741424b82c842c83e55ce # v2
-
-  go-lint:
-    uses: matt-riley/matt-riley-ci/.github/workflows/go-lint.yml@bcaf4ae43edf7d26421741424b82c842c83e55ce # v2
+  ci:
+    uses: matt-riley/matt-riley-ci/.github/workflows/ci.yml@bcaf4ae43edf7d26421741424b82c842c83e55ce
+    with:
+      test: true
+      vet: true
+      build: true
