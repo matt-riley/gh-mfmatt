@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.2.0](https://github.com/matt-riley/gh-mfmatt/compare/v1.1.2...v1.2.0) (2026-06-30)
+
+
+### Features
+
+* add astro-site template mapping ([dd9a770](https://github.com/matt-riley/gh-mfmatt/commit/dd9a770546c51cf60b2ddfad01eabb45b64be6cf))
+* add go-api template mapping ([17226ea](https://github.com/matt-riley/gh-mfmatt/commit/17226eadd708d8147761a47f591479f9e8905804))
+* add neovim-plugin template option ([ad87e44](https://github.com/matt-riley/gh-mfmatt/commit/ad87e442af7f548964dc9037ec6a877a24e5f69b))
+* add ts-package template mapping ([b300eee](https://github.com/matt-riley/gh-mfmatt/commit/b300eeec25b459ad5ac36f7070e739ade1adfe9e))
+* initial gh-mfmatt extension ([6d1ecf6](https://github.com/matt-riley/gh-mfmatt/commit/6d1ecf6de7c59f45c279a205e7f1bd43a76fcbb6))
+
+
+### Bug Fixes
+
+* add release-please config and manifest ([6163143](https://github.com/matt-riley/gh-mfmatt/commit/616314360847d71d15c5d0bd9142607b24c62c4c))
+* port to Universal CI ([#10](https://github.com/matt-riley/gh-mfmatt/issues/10)) ([1284d19](https://github.com/matt-riley/gh-mfmatt/commit/1284d19b0439b872bf19eeea227265b58e8ca8a6))
+* **release:** publish gh-compatible asset names ([5b5464c](https://github.com/matt-riley/gh-mfmatt/commit/5b5464c4a69f843be5ff162ba9aa8430f4b1719e))
+
 ## [1.1.2](https://github.com/matt-riley/gh-mfmatt/compare/v1.1.1...v1.1.2) (2026-06-29)
 
 
