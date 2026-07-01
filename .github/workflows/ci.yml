@@ -8,7 +8,7 @@ on:
 
 jobs:
   ci:
-    uses: matt-riley/matt-riley-ci/.github/workflows/ci.yml@bcaf4ae43edf7d26421741424b82c842c83e55ce
+    uses: matt-riley/matt-riley-ci/.github/workflows/ci.yml@071c2c2bbe410f73126d3cefd0a0b6812b3565f6
     with:
       test: true
       vet: true
