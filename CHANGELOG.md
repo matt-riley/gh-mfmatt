@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/matt-riley/gh-mfmatt/compare/v1.2.0...v1.2.1) (2026-10-30)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/charmbracelet/huh to v2 ([#35](https://github.com/matt-riley/gh-mfmatt/issues/35)) ([59fd46e](https://github.com/matt-riley/gh-mfmatt/commit/59fd46e5086df81e5e3e0c1a538a1cfe43fea4a3))
+
 ## [1.2.0](https://github.com/matt-riley/gh-mfmatt/compare/v1.1.2...v1.2.0) (2026-06-30)
 
 
