@@ -3,7 +3,7 @@ module github.com/matt-riley/gh-mfmatt
 go 1.27.2
 
 require (
-	github.com/charmbracelet/huh v0.8.0
+	github.com/charmbracelet/huh/v2 v2.0.3
 	github.com/spf13/cobra v1.10.2
 )
 
