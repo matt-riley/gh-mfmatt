@@ -1,6 +1,6 @@
 module github.com/matt-riley/gh-mfmatt
 
-go 1.27.2
+go 1.27.3
 
 require (
 	github.com/charmbracelet/huh v0.8.0
