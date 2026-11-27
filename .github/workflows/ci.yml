@@ -13,7 +13,7 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}:${{ github.ref }}:ci
       cancel-in-progress: true
-    uses: matt-riley/matt-riley-ci/.github/workflows/ci.yml@f846763f763247cb0140e3dd08002280b001f6cf # v4
+    uses: matt-riley/matt-riley-ci/.github/workflows/ci.yml@e8a2503259d33b925cad2bc018e052a2579f441d # v4
     with:
       test: true
       vet: true
